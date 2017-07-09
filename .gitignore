@@ -1,0 +1,15 @@
+# git ignore file
+# using glob syntax
+# non-committed project folders and files
+build/*
+.*gradle/*
+# ignore netbeans cache
+private/*
+# ignore lock files
+# Open/Libre Office
+.~lock.*
+# MS Office
+~$*
+~*.tmp
+# gedit and notepad++
+*~

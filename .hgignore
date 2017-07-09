@@ -1,0 +1,16 @@
+# mercurial ignore file
+# using glob syntax
+syntax: glob
+# non-committed project folders and files
+build/**
+.*gradle/**
+# ignore netbeans cache
+private/**
+# ignore lock files
+# Open/Libre Office
+.~lock.*
+# MS Office
+~$*
+~*.tmp
+# gedit and notepad++
+*~
