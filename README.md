@@ -4,6 +4,8 @@ A JavaFX control for displaying textured 3D spheres using one of several map pro
 ## Map Projections
 GlobeViewer supports **Mercator** (aka "uv-mapping"), **Sinusoidal**, **Cube**, and **Dymaxion** (aka "icosahedron") map projections. Of these, the *Dymaxion* map will give you the best quality appearance, but *Mercator* is more commonly used.
 
+![screenshot](https://user-images.githubusercontent.com/1922739/27995288-7174df4e-6499-11e7-8a9a-5d5830ef1555.png)
+
 ## Example Usage
 The following is a complete java program (not including the texture files earth-tex_*.png) using the GlobeViewer
 ```java
