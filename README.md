@@ -9,8 +9,8 @@ GlobeViewer supports **Mercator** (aka "uv-mapping"), **Sinusoidal**, **Cube**, 
 ## Example Usage
 The following is a complete java program (not including the texture files earth-tex_*.png) using the GlobeViewer
 ```java
-import hall.collin.christopher.javafx.globeviewer.*;
-import hall.collin.christopher.javafx.globeviewer.interaction.*;
+import cchall.javafx.globeviewer.GlobeViewer;import cchall.javafx.globeviewer.MercatorGlobeViewer;
+import cchall.javafx.globeviewer.interaction.*;
 import javafx.application.Application;
 import static javafx.application.Application.launch;
 import javafx.geometry.*;

@@ -1,4 +1,4 @@
 module name.cchall.globeviewer {
-	exports hall.collin.christopher.javafx.globeviewer;
+	exports cchall.javafx.globeviewer;
 	requires javafx.graphics;
 }
