@@ -24,17 +24,13 @@
 package hall.collin.christopher.javafx.globeviewer.interaction;
 
 import hall.collin.christopher.javafx.globeviewer.GlobeViewer;
-import java.util.concurrent.atomic.AtomicReference;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javafx.application.Platform;
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
 import javafx.event.EventHandler;
 import javafx.geometry.Point2D;
 import javafx.geometry.Point3D;
-import javafx.scene.input.MouseDragEvent;
 import javafx.scene.input.MouseEvent;
+
+import java.util.concurrent.atomic.AtomicReference;
 
 /**
  * This InteractionHandler lets the user spin and tilt the globe by dragging the 

@@ -14,3 +14,6 @@ private/**
 ~*.tmp
 # gedit and notepad++
 *~
+
+.idea/*
+out/*
